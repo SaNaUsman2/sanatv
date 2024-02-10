@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>SaNaTV - LIVE </title>
+    
+
+    
+</head>
+<style>
+.
+*{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+    
+    h1{font-size: 25pt;
+    font-weight: bold;
+    
+    font-family: 'Young Serif', serif;
+    letter-spacing:8px;
+    box-shadow: 0 0 0px #0f0,
+              0 0 3px #0f0,
+              0 0 0px #0f0,
+              0 0 0px #0f0,
+              0 0 0px #0f0,
+              0 0 0px #0f0,
+              0 0 0px #0f0;
+              
+   animation: animate 1s linear infinite;
+    
+    
+    
+                -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FF0000;
+    -webkit-text-fill-color: transparent;
+}
+.header{
+padding: 8px 20px;
+width:100%;
+
+background: #e0e0e0;
+box-shadow:  2px 2px 6px #5a5a5a,
+             -2px -2px 6px #ffffff;}
+    
+    
+@keyframes blink-animation { to { visibility: hidden; } } @-webkit-keyframes blink-animation { to { visibility: hidden; } }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+.active-cyan-3 input[type=text] {
+  border: 1px solid red;
+  
+}.poster{height:100px;
+border-radius: 6px;
+max-width: 100%;
+}
+
+
+
+
+
+.shape{ box-shadow: 0 0 0 1px #4dd0e1;
+  box-shadow:  2px 2px 6px #5a5a5a,
+             -2px -2px 6px #ffffff;
+             border-radius: 6px;
+width: 140px;
+padding: 10px ;
+height:125px;
+display: inline-block;
+margin:8px;
+padding: 5;
+font-size: 16pt;
+font-weight: bold;
+background:#fff;
+}
+.shape p{font-size:12px;
+} 
+ 
+ 
+ 
+ .fixy{
+ width:100%;
+ 
+
+padding: 0px;
+background:#e0e0e0;
+}
+
+
+
+.fab {font-size:25px;}
+.telegram-popup{
+width:170px;
+ z-index:10;
+ overflow: auto;
+position: fixed;
+
+  right: 20px; 
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+padding:5px 0px 10px 0px;
+
+ 
+  border-radius: 50px;
+}
+.shape:before{
+content:"\1BE4\0020Live";
+width:50px;
+height:20px;
+text-align:center;
+font-size:12px;
+background: orange;
+position:absolute;
+color:#fff;
+padding:2px 5px;
+border-radius:5px;
+z-index:2;
+animation: blink-animation 1s steps(5, start) infinite;
+-webkit-animation: blink-animation 1s steps(5, start) infinite; 
+}
+.telegram-button-link:link{
+  text-decoration: none;
+  color:#fff;
+  
+
+
+
+}
+
+</style>
+<body>
+
+
+ <center> <h1 id="splash" class="header">SaNa TV</h1>
+
+
+<!-- Search form -->
+<div class="active-cyan-3 mb-4">
+
+  <input class="form-control" type="text" id="search" placeholder="Search" aria-label="Search">
+</div> 
+ 
+
+ 
+
+<a href="go:50" id="el"><div class="shape"><img class="poster" src="https://i.postimg.cc/jjWk6SYG/download.png" alt=""><p class="">Goe News</p></div></a>
+
+
+   <a href="go:51" id="el"><div class="shape"><img class="poster" src="https://i.postimg.cc/5tQcp3M9/download-5.jpg" alt=""><p class=""> Express News</p></div></a> 
+   
+  <a href="go:52" id="el"><div class="shape"><img class="poster" src="https://i.postimg.cc/HxbJyXZj/download-4.jpg" alt=""><p class="">Ary News</p></div></a> 
+  
+  <a href="go:53" id="el"><div class="shape"><img class="poster" src="https://i.postimg.cc/G3QFgnKt/download-1.png" alt=""><p class="">Hum News </p></div></a>   
+  
+<a href="go:54" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/public-news-live.webp?id=70" alt=""><p class="">Public News</p></div></a>  
+
+ <a href="go:55" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/pnn-news-live.webp?id=96" alt=""><p class="">Pnn News</p></div></a> 
+
+  <a href="go:56" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/abb-takk-news-live.webp?id=20" alt=""><p class="">Abb-Takk-News </p></div></a>   
+
+<a href="go:57" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/city41-live.webp?id=56" alt=""><p class="">City 41 </p></div></a>   
+
+<a href="go:58" id="el"><div class="shape"><img class="poster" src="http://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/k21-news-live.webp?id=82" alt=""><p class="">K21 News</p></div></a>   
+
+<a href="go:59" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/time-news-live.webp?id=64" alt=""><p class="">Time News</p></div></a>   
+
+
+<a href="go:60" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/sindh-tv-news-live.webp?id=86" alt=""><p class="">Sindh TV News </p></div></a>  
+
+ <a href="go:61" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/city-42-live.webp?id=67" alt=""><p class="">City 42</p></div></a>   
+
+<a href="go:62" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/channel-five-live.webp?id=51" alt=""><p class="">Channel 5 News</p></div></a>
+   
+<a href="go:63" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/mehran-tv-logo.webp?id=68" alt=""><p class="">Mehran TV</p></div></a>  
+
+ <a href="go:64" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/news-one-live.webp?id=29" alt=""><p class="">News-one</p></div></a>   
+
+<a href="go:65" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/roze-news-live.webp?id=12" alt=""><p class="">Roze News</p></div></a>   
+
+<a href="go:66 " id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/ktn-news-live.webp?id=50" alt=""><p class="">KTN News</p></div></a>  
+
+ <a href="go:67" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/aaj-news-live.webp?id=57" alt=""><p class="">Aaj News</p></div></a>  
+
+ <a href="go:68" id="el"><div class="shape"><img class="poster" src="https://canvas.tamashaweb.com/jazzlive/uploads/channels/logo/gnn-live.webp?id=46" alt=""><p class="">Gnn News</p></div></a>  
+
+ 
+
+ <footer class="footer"  style="background: rgb(0,0,0);
+background: linear-gradient(180deg, #4facfe 35%,  #00f2fe 100%);color:#fff;    font-weight: bold;
+    font-family: 'Young Serif', serif;"><hr>© Powered by SaNa TV <hr></footer>
+  </center>
+  <marquee><h3 style="color:green">
+  	
+  	Welcome To Sana TV Watch All News Channels
+</body>
+<script>
+    
+var search = document.getElementById("search");
+var els = document.querySelectorAll("#el");
+
+search.addEventListener("keyup", function() {
+
+  Array.prototype.forEach.call(els, function(el) {
+    if (el.textContent.toLowerCase().trim().indexOf(search.value.toLowerCase()) > -1)
+      el.style.display = 'inline-block';
+    else el.style.display = 'none';
+  });
+
+});
+
+setInterval(function () {
+  document.getElementById('splash').innerHTML = "SaNa.TV"; 
+document.getElementById('popup').innerHTML =`<a href="" class="telegram-bu" id="wtext"><i class=""></i> 
+</a>`;
+document.getElementById('popup').style.backgroundColor=  "#25D366";
+
+
+
+}, 1000);
+
+setInterval(function () {
+    
+  document.getElementById('splash').innerHTML = "SaNa.TV"; 
+  document.getElementById('wtext').innerHTML =` <a href=" class="" id="i"><i class="fab fa-telegram"></i> Join our channel
+</a>`;
+document.getElementById('popup').style.backgroundColor=  "#229ED9";
+
+}, 3000);
+
+
+
+function myMove() {
+  let id = null;
+  const elem = document.getElementById("popup");   
+  let pos = 0;
+  clearInterval(id);
+  id = setInterval(frame, 1);
+  function frame() {
+    if (pos > 520) {
+        
+      pos++; 
+            elem.style.marginbottom = pos + "px"; 
+            elem.style.right = pos/3 +"px"; 
+        
+        //clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos/3 +"px"; 
+
+    }
+  }
+}
+myMove();
+
+</script>
+</html>
